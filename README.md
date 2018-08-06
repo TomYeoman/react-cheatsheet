@@ -11,17 +11,18 @@ Contains everything react
   - [Strings](#strings)
   
   
-  #function-testing
+  ##function-testing
   
   There are several ways we can test whether a function prop is called as expected
   
-  #spies-stubs
+  ###spies-stubs
   
   *Spies*
   
-  a spy is something that wraps around an existing function, E.g
+  Creates a mock function but also tracks calls to object[methodName]  
   
   ```
+  jest.spyOn(object, methodName) ( See https://jestjs.io/docs/en/jest-object#jestspyonobject-methodname )
   sinon.spyOn(MyClass.prototype, 'onClick');
   jasmine.createSpy()
   chai.spy()
