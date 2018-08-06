@@ -3,7 +3,7 @@ Contains everything react
 
 - [Test structure](#test-structure)
 - [Function testing](#function-testing)
-  - [Spies VS Stubs](#spies-stubs)
+  - [Spies VS Stubs](#spies-vs-stubs)
 - [Matchers](#matchers)
   - [Basic matchers](#basic-matchers)
   - [Truthiness](#truthiness)
