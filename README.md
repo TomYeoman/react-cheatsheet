@@ -11,11 +11,11 @@ Contains everything react
   - [Strings](#strings)
   
   
-  ##function-testing
+  ## Function Testing
   
   There are several ways we can test whether a function prop is called as expected
   
-  ###spies-stubs
+  ### Spies Vs Stubs
   
   *Spies*
   
